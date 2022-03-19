@@ -4,48 +4,34 @@ export default function Footer() {
   const links = [
     {
       title: 'Instagram',
-      url: 'https://instagram.com/birobirobiro',
+      url: 'https://www.instagram.com/omatheusfc/',
       icon: 'ri-instagram-line',
       color: '#e1306c',
     },
     {
       title: 'GitHub',
-      url: 'https://github.com/birobirobiro',
+      url: 'https://github.com/MatheusFC2',
       icon: 'ri-github-line',
       color: '#777',
 
     },
     {
       title: 'LinkedIn',
-      url: 'https://linkedin.com/in/birobirobiro',
+      url: 'https://www.linkedin.com/in/matheus-freitas-campos-235305137/',
       icon: 'ri-linkedin-line',
       color: '#0077b5',
 
     },
     {
-      title: 'Rocketseat',
-      url: 'https://app.rocketseat.com.br/me/birobirobiro',
-      icon: 'ri-rocket-line',
-      color: '#8257E5',
-
-    },
-    {
       title: 'Twitch',
-      url: 'https://twitch.tv/birobirobiro',
+      url: 'https://www.twitch.tv/omatheusfc',
       icon: 'ri-twitch-line',
       color: '#9146ff',
 
     },
     {
-      title: 'Youtube',
-      url: 'https://youtube.com/birobirobiro',
-      icon: 'ri-youtube-line',
-      color: '#ff0000',
-
-    },
-    {
       title: 'Source',
-      url: 'https://github.com/birobirobiro/birobirobiro.dev',
+      url: 'https://github.com/MatheusFC2/Portfolio',
       icon: 'ri-braces-line',
       color: '#f1f1f1',
 
