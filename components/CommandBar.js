@@ -31,7 +31,7 @@ export default function CommandBar(props) {
       shortcut: ['e'],
       keywords: 'send-email',
       section: 'Geral',
-      perform: () => window.open('mailto:birobirobiro.dev@gmail.com', '_blank'),
+      perform: () => window.open('mailto:matheusfreitascampos@gmail.com', '_blank'),
       icon: <Icon className="ri-mail-line" />,
     },
     {
@@ -76,7 +76,7 @@ export default function CommandBar(props) {
       shortcut: ['f', 'i'],
       keywords: 'go-instagram',
       section: 'Follow',
-      perform: () => window.open('https://instagram.com/birobirobiro', '_blank'),
+      perform: () => window.open('https://instagram.com/omatheusfc', '_blank'),
       icon: <Icon className="ri-instagram-line" />,
     },
     {
@@ -85,7 +85,7 @@ export default function CommandBar(props) {
       shortcut: ['f', 'g'],
       keywords: 'go-github',
       section: 'Follow',
-      perform: () => window.open('https://github.com/birobirobiro', '_blank'),
+      perform: () => window.open('https://github.com/MatheusFC2', '_blank'),
       icon: <Icon className="ri-github-line" />,
     },
     {
@@ -94,17 +94,8 @@ export default function CommandBar(props) {
       shortcut: ['f', 'l'],
       keywords: 'go-linkedin',
       section: 'Follow',
-      perform: () => window.open('https://linkedin.com/in/birobirobiro', '_blank'),
+      perform: () => window.open('https://www.linkedin.com/in/matheus-freitas-campos-235305137/', '_blank'),
       icon: <Icon className="ri-linkedin-line" />,
-    },
-    {
-      id: 'rocketseat',
-      name: 'Rocketseat',
-      shortcut: ['f', 'r'],
-      keywords: 'go-rocketseat',
-      section: 'Follow',
-      perform: () => window.open('https://app.rocketseat.com.br/me/birobirobiro', '_blank'),
-      icon: <Icon className="ri-rocket-line" />,
     },
     {
       id: 'twitch',
@@ -112,17 +103,8 @@ export default function CommandBar(props) {
       shortcut: ['f', 't'],
       keywords: 'go-twitch',
       section: 'Follow',
-      perform: () => window.open('https://twitch.tv/birobirobiro', '_blank'),
+      perform: () => window.open('https://www.twitch.tv/omatheusfc', '_blank'),
       icon: <Icon className="ri-twitch-line" />,
-    },
-    {
-      id: 'youtube',
-      name: 'Youtube',
-      shortcut: ['f', 'y'],
-      keywords: 'go-youtube',
-      section: 'Follow',
-      perform: () => window.open('https://youtube.com/birobirobiro', '_blank'),
-      icon: <Icon className="ri-youtube-line" />,
     },
 
   ]
