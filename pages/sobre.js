@@ -15,9 +15,9 @@ import items from '../data/about'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'Sobre // Biro³',
+    title: 'Sobre // omatheusfc',
     description:
-      "Me chamo João, mas pode me chamar de Biro ✌🏻.",
+      "Me chamo Matheus, mas pode me chamar como preferir✌🏻.",
     tagline: 'Sobre mim.',
     image: '#',
     primaryColor: 'cyan',
@@ -27,8 +27,8 @@ export async function getStaticProps() {
   return { props: meta }
 }
 
-const yearAnniversary = new Date('1993-03-11');
-const yearExperience = new Date('2021-01-01');
+const yearAnniversary = new Date('2005-05-16');
+const yearExperience = new Date('2021-09-01');
 
 function About(props) {
   const { title, description, image } = props
@@ -38,10 +38,10 @@ function About(props) {
       <Container>
         <Section>
           <Image
-            alt="Biro"
-            src="/static/images/birobirobiro.jpg"
+            alt="omatheusfc"
+            src="/static/images/omatheusfc.jpg"
             width="680"
-            height="920"
+            height="700"
             placeholder="blur"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAP0lEQVQImQE0AMv/AFBQUJKSkqmpqaOjowCurq7v7+/Jycm5ubkA////jIyMn5+fg4ODADAwMD09PWlpaQAAAApRGnEHblMWAAAAAElFTkSuQmCC"
             priority
@@ -54,15 +54,15 @@ function About(props) {
               '@bp2': { marginTop: '-6px' },
             }}
           >
-            Me chamo João, normalmente conhecido como <strong><i>Biro</i></strong> e tenho <strong>{new Date().getFullYear() - yearAnniversary.getFullYear()}</strong> anos.
+            Me chamo Matheus, normalmente conhecido como <strong><i>omatheusfc</i></strong> ou <strong><i>Mathias</i></strong> e tenho <strong>{new Date().getFullYear() - yearAnniversary.getFullYear()}</strong> anos.
           </Paragraph>
 
           <Paragraph>
-            Sou programador front-end, apaixonado por tecnologia. Atualmente trabalho como <strong>Instrutor</strong> na <strong>Rocketseat</strong> e tenho {new Date().getFullYear() - yearExperience.getFullYear()} anos de experiência com as principais tecnologias: <i>HTML, CSS, JavaScript, ReactJS e React Native</i>.
+            Sou programador front-end apaixonado por tecnologia, também soua Estudante de Administração junto com o Ensino Medio. Atualmente trabalho como <strong>Head Developer</strong> na <strong>COOP+</strong> e tenho {new Date().getFullYear() - yearExperience.getFullYear()} anos de experiência com as principais tecnologias: <i>HTML, CSS, JavaScript e React Native</i>.
           </Paragraph>
 
           <Paragraph>
-            Quando não estou trabalhando, estou codando algum projeto pessoal ou produzindo conteúdos para o <i><a href="https://instagram.com/birobirobiro">Instagram</a></i>, <i><a href="https://youtube.com/birobirobiro">Youtube</a></i> e fazendo lives na <i><a href="https://twitch.tv/birobirobiro">Twitch</a></i>.
+            Quando não estou trabalhando, estou codando algum projeto pessoal ou produzindo conteúdos para o <i><a href="https://instagram.com/omatheusfc">Instagram</a></i>.
           </Paragraph>
         </Section>
       </Container>
