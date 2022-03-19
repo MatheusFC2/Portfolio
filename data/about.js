@@ -1,8 +1,8 @@
 const items = [
   {
     jobTitle: 'Head Developer',
-    company: 'Rocketseat',
-    companyUrl: 'https://rocketseat.com.br',
+    company: 'COOP+',
+    companyUrl: 'https://coopmais.com/',
     startDate: '2021-09',
     location: 'Belo Horizonte, MG',
   },
