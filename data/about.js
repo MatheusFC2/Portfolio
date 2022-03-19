@@ -1,18 +1,17 @@
 const items = [
   {
-    jobTitle: 'Developer Instructor',
+    jobTitle: 'Head Developer',
     company: 'Rocketseat',
     companyUrl: 'https://rocketseat.com.br',
-    startDate: '2019-09',
-    location: 'Rio do Sul, SC',
+    startDate: '2021-09',
+    location: 'Belo Horizonte, MG',
   },
   {
-    jobTitle: 'Suporte Técnico',
-    company: 'Helpfor',
+    jobTitle: 'Estudante de Administração',
+    company: 'Sebrae',
     companyUrl: '#',
-    startDate: '2017-11',
-    endDate: '2019-09',
-    location: 'Bebedouro, SP',
+    startDate: '2020-01',
+    location: 'Belo Horizonte, MG',
   },
 ]
 
