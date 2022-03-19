@@ -11,7 +11,7 @@ export async function getStaticProps() {
     props: {
       title: 'Matheus Freitas Campos (omatheusfc)',
       description: 'Responsible for managing the developers',
-      image: 'https://raw.githubusercontent.com/birobirobiro/birobirobiro.dev/572ce4534386893e3c064da603745a68ea4cb051/.github/image.png',
+      image: 'https://avatars.githubusercontent.com/u/69259671?s=400&u=f836a11bc4e0be6c17a9699ed8933441916d3338&v=4',
     },
   }
 }
