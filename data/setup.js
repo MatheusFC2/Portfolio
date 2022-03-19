@@ -4,75 +4,28 @@ const categories = [
     id: 'equipamentos',
     items: [
       {
-        title: 'Laptop - MacBook Pro M1 (13", 2020) 8GB RAM 256GB SSD',
-        url: 'https://amzn.to/3tIlbuf',
+        title: 'Laptop - Acer Nitro 5 ',
+        url: 'https://www.amazon.com.br/Notebook-AN515-55-73R9-gera%C3%A7%C3%A3o-GeForce-Operacional/dp/B09JVHNF4Q/ref=sr_1_1?keywords=acer+nitro+5+2021&qid=1647717806&sprefix=acer+%2Caps%2C210&sr=8-1',
       },
       {
-        title: 'Monitor - Lenovo 23" (T2324PA)',
-        url: 'https://ebay.to/3vZfJWV',
+        title: 'Monitor - Acer 23" (KG241Q S)',
+        url: 'https://www.kabum.com.br/produto/111960/monitor-gamer-acer-23-6-led-165-hz-full-hd-0-5ms-freesync-hdmi-displayport-vesa-kg241q-s',
       },
       {
-        title: 'Mouse - Satechi M1',
-        url: 'https://amzn.to/3pRbadi',
+        title: 'Mouse - Logitech G403 Hero',
+        url: 'https://www.logitechg.com/pt-br/products/gaming-mice/g403-hero-gaming-mouse.910-005631.html',
       },
       {
-        title: 'Teclado - Satechi Slim X1 Bluetooth',
-        url: 'https://satechi.net/products/slim-x1-bluetooth-backlit-keyboard?variant=33573650071640',
+        title: 'Teclado - Anne Pro 2 ',
+        url: 'https://www.amazon.com.br/ANNE-PRO-teclado-mec%C3%A2nico-interruptor/dp/B07Y53G7B6',
       },
       {
-        title: 'Hub: Ugreen 7-in-1',
-        url: 'https://pt.aliexpress.com/item/1005003066577119.html',
-      },
-      {
-        title: 'Webcam - Logitech C922 Pro',
-        url: 'https://amzn.to/3vUa83T',
-      },
-      {
-        title: 'Headphone - Edifier W820NB (Prata)',
-        url: 'https://edifier.com.br/fone-hi-res-com-cancelamento-de-ruido-bluetooth-5-0-edifier-w820nb.html',
-      },
-      {
-        title: 'Microfone - Fifine K670',
-        url: 'https://amzn.to/3KqIHTk',
-      },
-      {
-        title: 'Fone - Edifier TWS X3',
-        url: 'https://amzn.to/3pRuhUi',
-      },
-      {
-        title: 'Mesa - Kappesberg Munique 190 cm',
-        url: 'https://amzn.to/3pNXC24',
+        title: 'Headset - Logitech G633 (Prata)',
+        url: 'https://www.pichau.com.br/headset-gamer-logitech-g633-artemis-spectrum-rgb-7-1-surround-preto-981-000604',
       },
       {
         title: 'Cadeira - Frisokar Addit',
-        url: 'https://amzn.to/364VpbJ',
-      },
-      {
-        title: 'Luminária Retro',
-        url: 'https://amzn.to/37uKRmS',
-      },
-      {
-        title: 'Lâmpada Filamento',
-        url: 'https://amzn.to/3i8Cv6w',
-      },
-      {
-        title: 'Suporte Celular',
-        url: 'https://amzn.to/3q54YOL',
-      },
-
-    ],
-  },
-  {
-    name: 'Wallpapers',
-    id: 'wallpapers',
-    items: [
-      {
-        title: 'Link - Wallpapers',
-        url: 'https://ibb.co/album/pJTFqF',
-      },
-      {
-        title: 'Prestige Wallpapers',
-        url: 'https://prestigewallpapers.gumroad.com/',
+        url: 'https://dazz.store/d624761.html',
       },
     ],
   },
@@ -89,8 +42,8 @@ const categories = [
         url: 'https://marketplace.visualstudio.com/items?itemName=guilhermerodz.omni-owl',
       },
       {
-        title: 'Fonte - Victor Mono',
-        url: 'https://rubjo.github.io/victor-mono/',
+        title: 'Fonte - Fira Code',
+        url: 'https://github.com/tonsky/FiraCode',
       },
     ],
   },
@@ -99,20 +52,8 @@ const categories = [
     id: 'terminal',
     items: [
       {
-        title: 'Hyper',
-        url: 'https://hyper.is',
-      },
-      {
-        title: 'Tema - Aura',
-        url: 'https://github.com/daltonmenezes/aura-theme/tree/main/packages/hyper',
-      },
-      {
-        title: 'Oh My ZSH',
-        url: 'https://ohmyz.sh',
-      },
-      {
-        title: 'Fig',
-        url: 'http://fig.io',
+        title: 'Git Bash',
+        url: 'https://git-scm.com/',
       },
     ],
   },
@@ -121,64 +62,24 @@ const categories = [
     id: 'apps',
     items: [
       {
-        title: 'Raycast',
-        url: 'https://www.raycast.com/',
-      },
-      {
-        title: 'Flameshot',
-        url: 'https://flameshot.org/',
-      },
-      {
-        title: 'Tiles',
-        url: 'https://freemacsoft.net/tiles/',
-      },
-      {
         title: 'Figma',
         url: 'https://figma.com',
-      },
-      {
-        title: 'iStat Menu',
-        url: 'https://bjango.com/mac/istatmenus/',
       },
       {
         title: 'Notion',
         url: 'https://www.notion.so/',
       },
       {
-        title: 'Insomnia',
-        url: 'https://insomnia.rest/download',
+        title: 'Postman',
+        url: 'https://www.postman.com/',
       },
       {
         title: 'OBS',
         url: 'https://obsproject.com/pt-br/download',
       },
       {
-        title: 'Kap',
-        url: 'https://getkap.co/',
-      },
-      {
-        title: 'Beekeper',
-        url: 'https://www.beekeeperstudio.io/',
-      },
-      {
-        title: 'Mini-video-me',
-        url: 'https://github.com/maykbrito/mini-video-me/',
-      },
-      {
         title: 'Spotify',
         url: 'https://www.spotify.com/br/',
-      },
-      {
-        title: 'Cron',
-        url: 'https://cron.com/',
-      },
-      {
-        title: 'Keka',
-        url: 'https://www.keka.io/en/',
-      },
-      {
-        title: 'MailSpring',
-        url: 'https://getmailspring.com/',
       },
     ],
   },
@@ -186,14 +87,6 @@ const categories = [
     name: 'Serviços',
     id: 'servicos',
     items: [
-      {
-        title: 'Lo-fi',
-        url: 'https://lofi.co/',
-      },
-      {
-        title: 'Google Domains',
-        url: 'https://domains.google',
-      },
       {
         title: 'Vercel',
         url: 'https://vercel.com',
