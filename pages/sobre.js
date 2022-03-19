@@ -153,8 +153,7 @@ function About(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://birobirobiro.dev/about" property="og:url" />
-        <meta content={`https://birobirobiro.dev${image}`} property="og:image" />
+        <meta content="https://omatheusfc.vercel.app/sobre" property="og:url" />
       </Head>
 
       {renderIntro()}

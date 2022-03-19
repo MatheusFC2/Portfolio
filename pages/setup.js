@@ -49,7 +49,7 @@ function Uses(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://birobirobiro.dev/uses" property="og:url" />
+        <meta content="https://omatheusfc.vercel.app/setup" property="og:url" />
         <meta content={`${image}`} property="og:image" />
       </Head>
 
