@@ -9,8 +9,8 @@ import { Wrapper } from '../components/Wrapper'
 export async function getStaticProps() {
   return {
     props: {
-      title: 'João Inácio (Biro)',
-      description: 'An instructor focused on helping people start programming',
+      title: 'Matheus Freitas Campos (omatheusfc)',
+      description: 'Responsible for managing the developers',
       image: 'https://raw.githubusercontent.com/birobirobiro/birobirobiro.dev/572ce4534386893e3c064da603745a68ea4cb051/.github/image.png',
     },
   }
@@ -54,7 +54,7 @@ export default function Index(props) {
 
               >{title}</h1>
               <p>
-                <strong>Front-end Developer | Developer Instructor at <a href="https://rocketseat.com.br" target="_blank">Rocketseat</a></strong>.<br />
+                <strong>Front-end Developer | Head Developer at <a href="https://coopmais.com/" target="_blank">COOP+</a></strong>.<br />
                 {description}.
               </p>
               <ShortcutHome />
