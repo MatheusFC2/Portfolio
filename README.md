@@ -1,4 +1,4 @@
-# birobirobiro.dev
+# Omatheusfc
 
 > My personal website <3
 
@@ -18,7 +18,7 @@
 1. Clone this repo:
 
 ```sh
-$ git clone https://github.com/birobirobiro/birobirobiro.dev.git
+$ git clone https://github.com/MatheusFC2/Portfolio.git
 ```
 
 2. Then go to the project's folder:
