@@ -27,7 +27,7 @@ export default class extends Document {
 
           <link
             rel="icon"
-            href="/favicon.svg"
+            href="/MFC.svg"
             sizes="any"
             type="image/svg+xml"
           />
