@@ -25,7 +25,7 @@ export default function Navbar() {
               background: `linear-gradient(
               135deg,
               var(--colors-purple) 0%,
-              var(--colors-pink) 100%
+              var(--colors-cyan) 100%
             )`,
               "background-size": "100",
               "-webkit-background-clip": "text",
@@ -36,7 +36,7 @@ export default function Navbar() {
             }}
 
 
-          >biro³</ButtonLogo>
+          >MFC</ButtonLogo>
         </Link>
 
         <Nav>
