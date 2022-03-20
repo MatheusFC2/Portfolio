@@ -20,7 +20,7 @@ const categories = [
         url: 'https://www.amazon.com.br/ANNE-PRO-teclado-mec%C3%A2nico-interruptor/dp/B07Y53G7B6',
       },
       {
-        title: 'Headset - Logitech G633 (Prata)',
+        title: 'Headset - Logitech G633',
         url: 'https://www.pichau.com.br/headset-gamer-logitech-g633-artemis-spectrum-rgb-7-1-surround-preto-981-000604',
       },
       {
