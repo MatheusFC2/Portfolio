@@ -24,7 +24,7 @@ $ git clone https://github.com/MatheusFC2/Portfolio.git
 2. Then go to the project's folder:
 
 ```sh
-cd birobirobiro.dev
+cd Portfolio
 ```
 
 3. Install all dependencies:
