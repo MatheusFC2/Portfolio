@@ -94,7 +94,7 @@ export default function CommandBar(props) {
       shortcut: ['f', 'l'],
       keywords: 'go-linkedin',
       section: 'Follow',
-      perform: () => window.open('https://www.linkedin.com/in/matheus-freitas-campos-235305137/', '_blank'),
+      perform: () => window.open('https://www.linkedin.com/in/matheus-freitas-campos-omatheusfc-235305137/', '_blank'),
       icon: <Icon className="ri-linkedin-line" />,
     },
     {

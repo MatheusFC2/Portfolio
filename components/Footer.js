@@ -17,7 +17,7 @@ export default function Footer() {
     },
     {
       title: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/matheus-freitas-campos-235305137/',
+      url: 'https://www.linkedin.com/in/matheus-freitas-campos-omatheusfc-235305137/',
       icon: 'ri-linkedin-line',
       color: '#0077b5',
 
