@@ -52,7 +52,7 @@ export default function CommandBar(props) {
       perform: () => router.push('/sobre'),
       icon: <Icon className="ri-user-line" />,
     },
-/*     {
+    {
       id: 'projects',
       name: 'Projetos',
       shortcut: ['g', 'p'],
@@ -60,7 +60,7 @@ export default function CommandBar(props) {
       section: 'Ir para',
       perform: () => router.push('/projetos'),
       icon: <Icon className="ri-lightbulb-line" />,
-    }, */
+    },
     {
       id: 'setup',
       name: 'Setup',

@@ -9,11 +9,11 @@ import items from '../data/projects'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'Projetos // Biro³',
+    title: 'Projetos // omatheusfc',
     tagline: 'Trabalho, hobby & open source.',
     image: '#',
     primaryColor: 'cyan',
-    secondaryColor: 'green',
+    secondaryColor: 'purple',
   }
 
   return { props: meta }
@@ -21,7 +21,7 @@ export async function getStaticProps() {
 
 function Projects(props) {
   const renderFeatured = () => {
-    const featured = ['myOnix Web', 'myOnix App', 'SpaceY', 'RocketTravel', 'GPT-3']
+    const featured = ['4Noobs-Web']
 
     return items
       .map(item => {
@@ -73,7 +73,7 @@ function Projects(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://birobirobiro.dev/projects" property="og:url" />
+        <meta content="https://omatheusfc.vercel.app/projetos" property="og:url" />
         <meta content={`${image}`} property="og:image" />
       </Head>
 

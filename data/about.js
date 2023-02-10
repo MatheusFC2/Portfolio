@@ -4,6 +4,7 @@ const items = [
     company: 'COOP+',
     companyUrl: 'https://coopmais.com/',
     startDate: '2021-09',
+    endDate: '2022-06',
     location: 'Belo Horizonte, MG',
   },
   {
