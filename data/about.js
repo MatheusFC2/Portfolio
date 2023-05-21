@@ -1,5 +1,12 @@
 const items = [
   {
+    jobTitle: 'Estagiario em Direitos Autorais',
+    company: 'Onimusic - Adorando',
+    companyUrl: 'https://www.onimusic.com.br/',
+    startDate: '2023-04',
+    location: 'Belo Horizonte, MG',
+  },
+  {
     jobTitle: 'Head Developer',
     company: 'COOP+',
     companyUrl: 'https://coopmais.com/',
